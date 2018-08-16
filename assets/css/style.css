@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    background-image: url('../images/bananas.png');
+}
+
+.head-nav {
+    width: 100%;
+    border-bottom: 2px #cccccc solid;
+    height: 100px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+    .head-nav .head-wrap {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+        .head-nav .head-wrap .home-name-text {
+            color: white;
+            font-size: 36px;                
+            font-family: 'Georgia', Times, 'Times New Roman', serif;
+            background-color: #33b3b3;
+            float: left;
+            width: auto;
+            padding: 30px;
+            font-weight: 500;
+            margin: 0;
+            text-decoration: none;
+        }
+
+        .head-nav .head-wrap .navigation-link-text {
+            float: right;
+            font-size: 20px;
+            padding: 37.5px 25px;
+            color: #777;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .head-nav .head-wrap .navigation-link-text:hover {
+            color: peachpuff;
+            background-color: #33b3b3;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .head-nav .head-wrap .navigation-link-text.active-link {
+            background-color: #33b3b3;
+            color: peachpuff;
+        }
+
+.container {
+    width: 900px;
+    padding: 30px;
+    margin: -20px auto 30px auto;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px 0 #dddddd;
+}
+
+.heading {
+    font-size: 36px;
+    color: #33b3b3;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-bottom: 30px;
+    border-bottom: 2px #cccccc solid;
+}
+
+.about-img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0 16px 12px 0;
+    border-radius: 100px;
+}
+
+.about-info {
+    display: inline;
+    line-height: 2.0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.footer-copyright {
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    border-top: #33b3b3 5px solid;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.footer-text {
+    margin: 0;
+    padding: 15px 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contact-form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+    .contact-form .input-field {
+        border: none;
+        border-bottom: #bbb 2px solid;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        font-size: 20px;
+        margin: 10px 0;
+        padding: 5px 2%;
+        width: 96%;
+    }
+
+    .contact-form .input-field:hover, .contact-form .input-field:active, .contact-form .input-field:focus {
+        background-color: #f0f0f0;
+        transition: background-color 0.2s ease-in-out;
+        outline: none;
+    }
+
+    .contact-form .textarea-field {
+        width: 96%;
+        padding: 5px 2%;
+        height: 250px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    .contact-form .textarea-field:hover, .contact-form .textarea-field:active, .contact-form .textarea-field:focus {
+        outline: none;
+        background-color: #f0f0f0;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+.portfolio-wrap {
+    width: 300px;
+    height: 180px;
+    display: inline-block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 10px;
+}
+
+    .portfolio-wrap.hangman {
+        background-image: url('../images/ipad.jpg');
+    }
+
+    .portfolio-wrap.rpg {
+        background-image: url('../images/dog.jpg');
+    }
+
+    .portfolio-wrap.trivia {
+        background-image: url('../images/bennett.jpg');
+    }
+
+    .portfolio-wrap.rutgers {
+        background-image: url('../images/office.jpg');
+    }
+
+    .portfolio-wrap.rock {
+        background-image: url('../images/gilfoyle.jpg');
+    }
+
+    .portfolio-wrap .portfolio-text {
+        display: block;
+        float: left;
+        width: 300px;
+        z-index: 100;
+        background-color: #33b3b3;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 20px;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        position: absolute;
+        bottom: 0;
+    }
